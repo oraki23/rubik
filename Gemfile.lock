@@ -76,7 +76,7 @@ GEM
     childprocess (0.9.0)
       ffi (~> 1.0, >= 1.0.11)
     cliver (0.3.2)
-    codecov (0.1.10)
+    codecov (0.2.12)
       json
       simplecov
       url
@@ -131,6 +131,7 @@ GEM
     faraday (0.17.0)
       multipart-post (>= 1.2, < 3)
     ffi (1.11.1)
+    ffi (1.11.1-x64-mingw32)
     gherkin (4.1.3)
     globalid (0.4.2)
       activesupport (>= 4.2.0)
@@ -202,9 +203,12 @@ GEM
     multi_xml (0.6.0)
     multipart-post (2.1.1)
     mustermann (1.0.3)
-    mysql2 (0.3.21)
+    mysql2 (0.5.3)
+    mysql2 (0.5.3-x64-mingw32)
     nio4r (2.5.2)
     nokogiri (1.10.4)
+      mini_portile2 (~> 2.4.0)
+    nokogiri (1.10.4-x64-mingw32)
       mini_portile2 (~> 2.4.0)
     oauth2 (1.4.2)
       faraday (>= 0.8, < 2.0)
@@ -331,6 +335,8 @@ GEM
       tilt (>= 1.1, < 3)
     sassc (2.2.1)
       ffi (~> 1.9)
+    sassc (2.2.1-x64-mingw32)
+      ffi (~> 1.9)
     selenium-webdriver (3.14.1)
       childprocess (~> 0.5)
       rubyzip (~> 1.2, >= 1.2.2)
@@ -370,6 +376,8 @@ GEM
     timecop (0.9.1)
     tzinfo (1.2.5)
       thread_safe (~> 0.1)
+    tzinfo-data (1.2020.1)
+      tzinfo (>= 1.0.0)
     uglifier (4.0.2)
       execjs (>= 0.3.0, < 3)
     unicode-display_width (1.3.0)
@@ -383,6 +391,7 @@ GEM
 
 PLATFORMS
   ruby
+  x64-mingw32
 
 DEPENDENCIES
   airbrake
@@ -408,7 +417,7 @@ DEPENDENCIES
   kaminari-i18n
   letter_opener
   letter_opener_web (~> 1.2.0)
-  mysql2 (~> 0.3.18)
+  mysql2 (~> 0.5.3)
   omniauth
   omniauth-google-oauth2
   poltergeist
@@ -430,10 +439,11 @@ DEPENDENCIES
   simplecov
   sinatra
   timecop
+  tzinfo-data
   uglifier (>= 1.3.0)
 
 RUBY VERSION
-   ruby 2.4.1p111
+   ruby 2.6.6p146
 
 BUNDLED WITH
    1.17.2

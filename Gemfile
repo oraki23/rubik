@@ -1,7 +1,7 @@
 # frozen_string_literal: true
 
 source "https://rubygems.org"
-ruby "2.4.1"
+ruby "2.6.6"
 
 gem "airbrake"
 gem "autoprefixer-rails"
@@ -15,7 +15,7 @@ gem "haml_lint"
 gem "jquery-rails"
 gem "kaminari"
 gem "kaminari-i18n"
-gem "mysql2", "~> 0.3.18"
+gem "mysql2", "~> 0.5.3"
 gem "omniauth"
 gem "omniauth-google-oauth2"
 gem "puma"
@@ -24,6 +24,7 @@ gem "rails-i18n"
 gem "sass-rails", "~> 5.0"
 gem "sidekiq-unique-jobs"
 gem "uglifier", ">= 1.3.0"
+gem "tzinfo-data"
 
 # Sidekiq
 gem "sidekiq"
